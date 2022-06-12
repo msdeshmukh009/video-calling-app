@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { useHMSActions } from "@100mslive/react-sdk";
-import axios from "axios";
 
 const JoiningForm = () => {
   const [userName, setUserName] = useState("");
